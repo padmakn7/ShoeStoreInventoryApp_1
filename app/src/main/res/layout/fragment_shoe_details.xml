@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".shoedetails.ShoeDetailsFragment">
+
+        <!-- here linear layout is used with orientation vertical making it easy to layout the views -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:title="@string/shoe_store_inventory_shoe_details"
+                app:titleTextColor="@color/white"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <TextView
+                android:id="@+id/shoeName_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shoe_name"
+                style="@style/welcome_style" />
+
+            <EditText
+                android:id="@+id/shoeName_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                style="@style/welcome_style" />
+
+            <TextView
+                android:id="@+id/companyName_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_name"
+                style="@style/welcome_style" />
+
+            <EditText
+                android:id="@+id/companyName_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                style="@style/welcome_style" />
+
+            <TextView
+                android:id="@+id/shoeSize_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shoe_size"
+                style="@style/welcome_style" />
+
+            <EditText
+                android:id="@+id/shoeSize_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                style="@style/welcome_style" />
+
+            <TextView
+                android:id="@+id/shoeDesc_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shoe_description"
+                style="@style/welcome_style" />
+
+            <EditText
+                android:id="@+id/shoeDesc_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                style="@style/welcome_style" />
+
+            <Button
+                android:id="@+id/saveDetails_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save_details"
+                android:backgroundTint="@color/blue_2"
+                android:letterSpacing="0.2"
+                android:textColor="@color/white"
+                android:padding="20dp"
+                android:layout_margin="10dp" />
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:backgroundTint="@color/blue_2"
+                android:letterSpacing="0.2"
+                android:textColor="@color/white"
+                android:padding="20dp"
+                android:layout_margin="10dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

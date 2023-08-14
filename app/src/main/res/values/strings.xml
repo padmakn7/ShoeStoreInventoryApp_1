@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="shoe_store_inventory_login">Shoe Store Inventory - Login</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="shoe_store_inventory_welcome">Welcome</string>
+    <string name="welcome_greeting">Welcome!</string>
+    <string name="welcome_to_app_greeting">Welcome to Shoe Store Inventory App!</string>
+    <string name="go_to_instructions">Go To Instructions</string>
+    <string name="shoe_store_inventory_instructions">Instructions</string>
+    <string name="instructions">Instructions\n</string>
+    <string name="add_instructions">Add shoe details - shoe name, company name, shoe size and shoe description to see them in the list</string>
+    <string name="go_to_shoe_list">Go to shoe list screen</string>
+    <string name="shoe_list">Shoe List</string>
+    <string name="shoe_store_inventory_shoe_list">Shoe Store Inventory - Shoe List</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="company_name">Company Name</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="shoe_description">Shoe Description</string>
+    <string name="save_details">Save Details</string>
+    <string name="cancel">Cancel</string>
+    <string name="shoe_store_inventory_shoe_details">Shoe Store Inventory - Shoe Details</string>
+    <string name="logout">Logout\n</string>
+</resources>

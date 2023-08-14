@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".welcome.WelcomeFragment">
+<!-- linear layout is used as it contains two textviews and two edittexts with orientation vertical -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:title="@string/shoe_store_inventory_welcome"
+                app:titleTextColor="@color/white"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <TextView
+                android:id="@+id/welcome_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_greeting"
+                style="@style/welcome_style"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/welcome_to_app_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_to_app_greeting"
+                style="@style/welcome_style"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/go_to_instructions_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_instructions"
+                android:backgroundTint="@color/blue_2"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:letterSpacing="0.2"
+                android:lineSpacingMultiplier="1.4"
+                android:padding="20dp"
+                android:layout_margin="10dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>
